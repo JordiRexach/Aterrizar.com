@@ -1,0 +1,12 @@
+Al leer el enunciado me di cuenta de que necesitaba una forma de trabajar con los patrones de texto para definir los formatos de las distintas fechas. 
+Asi que utilicé distintas expresiones para definir los formatos solicitados.
+
+Comencé por crear una clase "ConsultarFecha" que se encargará de machear el patrón de la cadena de caracteres ingresada (ISO8601, Latinoamericano o Norteamericano) y tambien se encargará de parsear (convertir) la cadena a Date.
+En un prinicipio noté que entre los métodos estaba repitiendo codigo, por lo que opté por tomar otro camino y utilizar SimpleDateFormat contenida en las librerias Date. De esta forma verifica con que tipo formato puede  
+matchear el string ingresado y le da un nuevo formato.
+
+
+
+
+
+
